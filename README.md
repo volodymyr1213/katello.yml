@@ -1,3 +1,4 @@
+```
 ---
 - name: Configure Hostname
   hosts: test
@@ -101,3 +102,4 @@
   handlers:
     - name: foreman-installer
       command: foreman-installer --scenario katello --foreman-admin-username admin --foreman-admin-password password
+```
